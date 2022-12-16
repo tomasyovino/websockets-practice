@@ -8,4 +8,4 @@ const NoteSchema = new Schema({
     timestamps: true
 });
 
-export default model("Note", NoteSchema);
+export const NoteModel = model("Note", NoteSchema);
